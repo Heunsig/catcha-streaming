@@ -45,23 +45,23 @@ class GoogleAuth extends React.Component {
     // } else if (this.state.isSignedIn) {
     } else if (this.props.isSignedIn) {
       return (
-        <button onClick={this.onSignOutClick} className="ui red google button">
+        <a onClick={this.onSignOutClick} className="item">
           <i className="google icon"/>
           Sign Out
-        </button>
+        </a>
       )
     } else {
       return (
-        <button onClick={this.onSignInClick} className="ui red google button">
+        <a onClick={this.onSignInClick} className="item">
           <i className="google icon"/>
           Sign In with Google
-        </button>
+        </a>
       )
     }
   }
 
   render () {
-    return <div>{this.renderAuthButton()}</div>
+    return <React.Fragment>{this.renderAuthButton()}</React.Fragment>
   }
 }
 const mapStateToProps = (state) => {

@@ -1,0 +1,33 @@
+body {
+  background: #282828;
+}
+
+#contentWrapper {
+  margin-top: 70px;
+}
+
+.ui.header.white {
+  color: white;
+}
+
+.seg {
+  background: white!important;
+  padding: 10px!important;
+  border-radius: 15px!important;
+}
+
+.item > .content > .header {
+  color: #3185db!important;
+}
+
+.item > .content > .header:hover {
+  color: #8dc5ff!important;
+}
+
+.formActions {
+  text-align: right;
+}
+
+.text.color.white { 
+  color: white;
+}

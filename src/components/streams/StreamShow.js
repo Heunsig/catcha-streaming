@@ -33,7 +33,7 @@ class StreamShow extends React.Component {
     const { id } = this.props.match.params
     this.player = flv.createPlayer({
       type: 'flv',
-      url: `http://172.30.83.27:8000/live/${id}.flv`
+      url: `http://localhost:8000/live/${id}.flv`
     })
 
     this.player.attachMediaElement(this.videoRef.current)
@@ -50,8 +50,8 @@ class StreamShow extends React.Component {
     return (
       <div>
         <video ref={this.videoRef} style={{ width: '100%' }} controls/>
-        <h1>{ title }</h1>  
-        <h5>{ description }</h5>
+        <h1 className="ui header white">{ title }</h1>  
+        <p className="text color white">{ description }</p>
       </div>
     )
   }
