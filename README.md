@@ -8,9 +8,8 @@ Simple Project to Practice React.js
 
 ## Videos
 
-[Catcha streaming](https://youtu.be/NC_UFR6yxc8)  
-
-[Streaming at another device](https://youtu.be/Ul-irJTOWGg)  
+* [Catcha streaming](https://youtu.be/NC_UFR6yxc8)
+* [Streaming at another device](https://youtu.be/Ul-irJTOWGg)  
 
 
 
